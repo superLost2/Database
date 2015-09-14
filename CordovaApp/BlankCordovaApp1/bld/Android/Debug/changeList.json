@@ -1,5 +1,6 @@
 {
   "changedFilesIos": [
+    "www\\css\\.DS_Store",
     "bower.json",
     "res\\icons\\android\\icon-72-hdpi.png",
     "res\\screens\\android\\screen-mdpi-landscape.png",
@@ -11,6 +12,7 @@
     "res\\icons\\windows\\StoreLogo.scale-100.png",
     "www\\images\\banner-1.png",
     "www\\scripts\\index.js",
+    "www\\ettersend.html",
     "res\\icons\\android\\icon-48-mdpi.png",
     "res\\icons\\ios\\icon-72.png",
     "res\\icons\\ios\\icon-76.png",
@@ -22,7 +24,9 @@
     "res\\icons\\windows\\Square71x71Logo.scale-240.png",
     "merges\\android\\scripts\\platformOverrides.js",
     "plugins\\cordova-plugin-whitelist\\src\\android\\WhitelistPlugin.java",
+    "www\\prosjektarb.html",
     "res\\screens\\android\\screen-hdpi-portrait.png",
+    "www\\fravaer.html",
     "www\\css\\index.css",
     "res\\icons\\windows\\StoreLogo.scale-240.png",
     "res\\screens\\ios\\screen-ipad-landscape.png",
@@ -33,12 +37,12 @@
     "config.xml",
     "res\\screens\\wp8\\SplashScreenImage.jpg",
     "res\\screens\\ios\\screen-ipad-landscape-2x.png",
-    "www\\page.html",
     "res\\screens\\ios\\screen-iphone-568h-2x.png",
     "res\\icons\\windows\\Square150x150Logo.scale-100.png",
     "www\\innstempling.html",
     "webpage.zip",
     "package.json",
+    "www\\timearbeid.html",
     "res\\screens\\android\\screen-ldpi-landscape.png",
     "res\\icons\\windows\\Wide310x150Logo.scale-240.png",
     "res\\icons\\windows\\Wide310x150Logo.scale-100.png",
@@ -54,6 +58,7 @@
     "res\\icons\\ios\\icon-60-2x.png",
     "res\\screens\\android\\screen-ldpi-portrait.png",
     "plugins\\cordova-plugin-whitelist\\package.json",
+    "www\\.DS_Store",
     "plugins\\cordova-plugin-whitelist\\CONTRIBUTING.md",
     "res\\native\\android\\ant.properties",
     "res\\icons\\windows\\Square310x310Logo.scale-100.png",
@@ -93,9 +98,7 @@
   "deletedFilesIos": [],
   "addedPluginsIos": [],
   "deletedPluginsIos": [],
-  "changedFiles": [
-    "www\\css\\buttons.css"
-  ],
+  "changedFiles": [],
   "deletedFiles": [],
   "addedPlugins": [],
   "deletedPlugins": []
