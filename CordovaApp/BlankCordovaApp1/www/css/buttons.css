@@ -1,0 +1,349 @@
+﻿html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0;padding:0;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+.underline{	padding-bottom:5px;	border-bottom: 1px solid #eee; margin:0 0 20px 0;}/* Add 5px bottom padding and a underline */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:100%;}
+
+
+
+body {background: url(../images/banner-3.png);
+      font-family: 'Droid Sans', sans-serif;
+      font-size: 100%;
+}
+.head {
+    padding: 8em 0px 3em 0px;
+}
+
+.button {
+    width: 50%;
+    margin: 10% auto 0;
+}
+
+.button input[type="submit"] {
+    font-size: 25px;
+    color: #fff;
+    background: rgb(16, 48, 115);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	
+    padding: 12px 0px;
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+.button input[type="submit"]:hover{
+	background: rgb(221, 4, 43);
+	transition: 0.5s all ease;
+	-webkit-transition: 0.5s all ease;
+	-moz-transition: 0.5s all ease;
+	-o-transition: 0.5s all ease;
+	
+}
+
+.buttonlog {
+    width: 50%;
+    margin: 3% auto 0;
+}
+
+.buttonlog input[type="submit"] {
+    font-size: 25px;
+    color: #fff;
+    background: rgb(221, 4, 43);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	
+    padding: 12px 0px;
+    margin-top: 18px;
+}
+.buttonlog input[type="submit"]:hover{
+	background: rgb(16, 48, 115);
+	transition: 0.5s all ease;
+	-webkit-transition: 0.5s all ease;
+	-moz-transition: 0.5s all ease;
+	-o-transition: 0.5s all ease;
+	
+}
+
+.buttonpro {
+    width: 35%;
+    margin: 13% auto 0;
+    text-align: center; 
+    color: black;
+}
+
+.buttonpro input[type="submit"] {
+    font-size: 18px;
+    color: #fff;
+    background:rgb(16, 48, 115); 
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	
+    padding: 12px 0px;
+    margin-top: 18px;
+}
+.buttonpro input[type="submit"]:hover{
+	background: rgb(221, 4, 43);
+	transition: 0.5s all ease;
+	-webkit-transition: 0.5s all ease;
+	-moz-transition: 0.5s all ease;
+	-o-transition: 0.5s all ease;
+	
+}
+
+.buttontime {
+    width: 35%;
+    margin: 13% auto 0;
+    text-align: center;
+    
+}
+
+.buttontime input[type="submit"] {
+    font-size: 18px;
+    color: #fff;
+    background: rgb(221, 4, 43);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	
+    padding: 12px 0px;
+    margin-top: 18px;
+}
+.buttontime input[type="submit"]:hover{
+	background: rgb(16, 48, 115);
+	transition: 0.5s all ease;
+	-webkit-transition: 0.5s all ease;
+	-moz-transition: 0.5s all ease;
+	-o-transition: 0.5s all ease;
+	
+}
+.buttonbekreft {
+    width: 25%;
+    margin: 0 auto 0;
+
+}
+.buttonbekreft input[type="submit"] {
+    font-size: 25px;
+    color: black;
+    background: rgb(202, 202, 202);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-color: black;
+    padding: 9px 0px;
+    margin-top: 18px;
+}
+.buttonbekreft input[type="submit"]:hover{
+	background: rgb(16, 48, 115);
+        color: #ffffff;
+	transition: 0.5s all ease;
+	-webkit-transition: 0.5s all ease;
+	-moz-transition: 0.5s all ease;
+	-o-transition: 0.5s all ease;
+      
+}
+.buttonUT {
+    width: 50%;
+    margin: 20% auto 0;
+  
+
+}
+.buttonUT input[type="submit"] {
+    font-size: 25px;
+    color: #fff;
+    background: rgb(221, 4, 43);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-color: black;
+    padding: 9px 0px;
+    margin-top: 18px;
+}
+.buttonUT input[type="submit"]:hover{
+	background: rgb(16, 48, 115);
+	transition: 0.5s all ease;
+	-webkit-transition: 0.5s all ease;
+	-moz-transition: 0.5s all ease;
+	-o-transition: 0.5s all ease;
+      
+}
+.buttonfravær {
+    width: 50%;
+    margin: 10% auto 0;
+
+}
+.buttonfravær input[type="submit"] {
+    font-size: 25px;
+    color: #fff;
+    background: green;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-color: black;
+    padding: 12px 0px;
+    margin-top: 18px;
+}
+.buttonfravær input[type="submit"]:hover{
+	background: rgb(16, 48, 115);
+	transition: 0.5s all ease;
+	-webkit-transition: 0.5s all ease;
+	-moz-transition: 0.5s all ease;
+	-o-transition: 0.5s all ease;
+      
+}
+
+.buttontilbake {
+    text-align: center;
+    padding-top: 15px;
+    width: 15%;
+    height: 40px;
+    color: #ffffff;
+    background: #333333;
+    border-radius: 10px 30px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-color: black;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 18px;
+    margin-left: 10px;
+   
+  
+
+}
+/*.buttontilbake input[type="submit"] {
+    font-size: 15px;
+    color: #fff;
+    background: #333333;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-color: black;
+    padding: 9px 0px;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+.buttontilbake input[type="submit"]:hover{
+	background: rgb(16, 48, 115);
+	transition: 0.5s all ease;
+	-webkit-transition: 0.5s all ease;
+	-moz-transition: 0.5s all ease;
+	-o-transition: 0.5s all ease;
+      
+}*/
+.buttonettersend {
+    width: 50%;
+    margin: -5% auto 0;
+
+}
+.buttonettersend input[type="submit"] {
+    font-size: 25px;
+    color: #fff;
+    background: #D1A319;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-color: black;
+    padding: 12px 0px;
+    margin-top: 18px;
+}
+.buttonettersend input[type="submit"]:hover{
+	background: rgb(16, 48, 115);
+	transition: 0.5s all ease;
+	-webkit-transition: 0.5s all ease;
+	-moz-transition: 0.5s all ease;
+	-o-transition: 0.5s all ease;
+      
+}
+
+
+.prosjekter {
+    width: 40%;
+    text-align: center;
+    margin: 10% auto;
+    line-height: 30px;
+   
+}
+.labeltext { font-size: 1.5em;
+             color: black;  }
+
+
+
+
+form { font-size: 1.5em;
+      }
+
+.textområde { width: 220px; 
+              height: 30px;
+              font-size: 1em;
+              border: 6px solid rgb(202, 202, 202);
+              border-radius: 4px;
+	      -webkit-border-radius: 4px;
+	      -moz-border-radius: 4px;
+}
+.tabell {width: 130%;
+         margin: 0px -100px;
+         }
+.ettersend { width: 150px; 
+            height: 25px; 
+}
+.kommentar {  font-size: 1.5em;
+              border: 6px solid rgb(202, 202, 202);
+              border-radius: 4px;
+	      -webkit-border-radius: 4px;
+	      -moz-border-radius: 4px; } 
+

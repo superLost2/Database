@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link href="css/buttons.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/index.css" rel="stylesheet" type="text/css" media="all">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="Logical Login Form Responsive, Login form web template, Sign up Web Templates, Flat Web Templates, Login signup Responsive web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+
+    <title>Fravær</title>
+</head>
+
+<body>
+
+     <nav class="buttontilbake">
+     <a href="hovedmeny.html" style="color: #ffffff;" >back</a>
+    </nav>
+    <!--<div class="buttontilbake">
+        <input type="submit" value="Back" />
+    </div>-->
+    
+    <div class="prosjekter">
+
+        <label class="labeltext">Fravær:</label>
+        <input class="textområde" type="text" name="fravær_Nr" style="width: 220px; height: 30px; font-size: 1.3em" id="fravær_nr" list="fra_Nr">
+        <datalist id="fra_Nr">
+            <option value="Egenmelding">Egenmelding</option>
+            <option value="Sykt barn">Sykt barn</option>   
+            <option value="Sykemelding">Sykemelding</option>
+            <option value="Annet fravær">Annet Fravær</option>              
+        </datalist>
+    </div>
+    
+    <div class="prosjekter">
+        
+        <label class="labeltext" for="myComments">Kommentar:</label> 
+        <div>
+            <textArea class="kommentar" name="myComments" id="myComments" rows="2" cols="17" required="required"></textArea>
+        </div>
+    </div>
+    
+    <div class="prosjekter">
+    <form class="labeltext" action="action_page.php">
+        Fra åååå-må-da:<br>
+        <input class="textområde" type="date" name="bday" max="2060-12-31" style="width: 220px; height: 30px; font-size: 0.7em"><br><br>
+         Til åååå-må-da:<br>
+         <input class="textområde" type="date" name="bday" min="2016-08-02" style="width: 220px; height: 30px; font-size: 0.7em"><br><br>
+      </form>
+        
+    </div>
+     <div class="buttonfravær">
+        <input type="submit" value="Send inn" />
+     </div>
+     <div class="footer">
+        <p>© 2015 Team Browncheese. All Rights Reserved | Design by TBC </p>
+    </div>
+
+
+    <script src="cordova.js"></script>
+    <script src="scripts/platformOverrides.js"></script>
+
+    <script src="scripts/index.js"></script>
+
+</body>
+</html>
